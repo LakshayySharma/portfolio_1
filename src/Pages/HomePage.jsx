@@ -1,7 +1,6 @@
 import React from "react";
 import "./HomePage.css";
 import Navbar from "../Components/Navbar";
-import image from "../images/portfolio_image.jfif";
 import About from "../Components/About";
 import Projects from "../Components/Projects";
 import Main from "../Components/Main";
