@@ -1,7 +1,4 @@
-import { NavLink, Link, Route, Routes } from "react-router-dom";
-import About from "./Components/About";
-import Navbar from "./Components/Navbar";
-import Projects from "./Components/Projects";
+import { Route, Routes } from "react-router-dom";
 import HomePage from "./Pages/HomePage";
 import "./sass/main.scss";
 import BlogApp from "./Pages/BlogApp";
