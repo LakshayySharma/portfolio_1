@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-
+import { NavLink, Link, Route, Routes } from "react-router-dom";
+import About from "./Components/About";
+import Navbar from "./Components/Navbar";
+import Projects from "./Components/Projects";
+import HomePage from "./Pages/HomePage";
+import "./sass/main.scss";
+import BlogApp from "./Pages/BlogApp";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/project/mern-blog-app" element={<BlogApp />} />
+      </Routes>
     </div>
   );
 }

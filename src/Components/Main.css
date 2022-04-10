@@ -1,0 +1,16 @@
+.main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+svg:hover {
+  color: #6fffe9 !important;
+  transition: 0.3s;
+}
+svg {
+  margin-right: 2rem;
+  color: rgb(203, 213, 246, 0.7);
+  margin-top: 0.5rem;
+  transition: 0.3s;
+}

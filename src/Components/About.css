@@ -1,0 +1,56 @@
+/* div {
+  border: 1px solid #eee;
+} */
+.about-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.about-section p {
+  color: rgba(203, 213, 246, 0.7);
+  font-size: 1.1rem;
+}
+.intro {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  color: rgba(203, 213, 246, 0.7);
+}
+/*  */
+.intro ul {
+  list-style: none; /* Remove default bullets */
+}
+
+.intro ul li::before {
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #6fffe9; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.intro-image {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (max-width: 768px) {
+  .intro {
+    flex-direction: column;
+    align-items: center;
+  }
+  .intro img {
+    width: 50%;
+    border-radius: 50% !important;
+  }
+  .intro-image {
+    justify-content: center;
+  }
+}
+
+/* h1 {
+  border-top: 1px solid #eee;
+} */

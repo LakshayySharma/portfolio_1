@@ -1,0 +1,92 @@
+.go-back {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  bottom: 2rem;
+  right: 1rem;
+
+  /* top: 10;
+  left: -10; */
+}
+
+.project-wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+#specifics {
+  /* border: 1px solid #ccc; */
+}
+
+@media (max-width: 768px) {
+  .go-back code {
+    visibility: hidden;
+    display: none;
+  }
+  .go-back {
+    right: 1rem;
+    bottom: 1rem;
+    align-items: flex-end;
+  }
+}
+#specifics .h3 {
+  color: rgb(212, 221, 248);
+  font-weight: bold;
+}
+.about-pro-image {
+  height: 50%;
+
+  /* border: solid 1px #eee; */
+  display: flex;
+  justify-content: flex-start;
+}
+.about-pro-image img {
+  max-height: 80%;
+  max-width: 80%;
+}
+
+#specifics {
+  color: rgba(212, 221, 248, 0.7);
+}
+
+#specifics p {
+  width: 80%;
+}
+@media (max-width: 768px) {
+  .about-pro-image {
+    width: 100%;
+    height: 50%;
+  }
+  .about-pro-image img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  #specifics {
+    /* border: 1px solid #ccc; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #specifics p {
+    width: 90%;
+    font-size: 0.8rem;
+  }
+}
+.tech-used {
+  list-style: none;
+}
+
+.tech-used li::before {
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #6fffe9; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+@media (max-width: 468px) {
+  #specifics p {
+    width: 100%;
+    font-size: 0.6rem;
+  }
+}

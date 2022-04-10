@@ -1,0 +1,17 @@
+#navbar .nav-item {
+  letter-spacing: 0.1rem;
+}
+.nav-item:hover {
+  background-color: #5bc0be;
+  color: #fff !important;
+  border: 30%;
+}
+
+.nav-item {
+  font-size: 0.8rem;
+}
+
+.navbar-dark .navbar-brand {
+  font-size: 1.5rem;
+  padding: 0.8rem;
+}

@@ -1,0 +1,12 @@
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.contact-section p {
+  font-size: 1.1 rem;
+  color: rgba(203, 213, 246, 0.7);
+}
