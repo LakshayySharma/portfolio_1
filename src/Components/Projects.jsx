@@ -16,7 +16,7 @@ const Projects = () => {
         <Link to="/project/mern-blog-app" target="_blank">
           <div className="pro-details">
             <img src={Proj1} height="80%" alt="" />
-            <code className="text-primary2 mt-3">Mern Stack Blogapp</code>
+            <code className="text-primary2 mt-3" style={{color: "#5bc0be"}}>Mern Stack Blogapp</code>
           </div>
         </Link>
 
@@ -51,7 +51,7 @@ const Projects = () => {
         <path d="M2 6h2.45L2.908 7.639A1.5 1.5 0 0 0 3.313 10H2V6zm8.595-2-.308 1H12a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H9.276l-.942 1H12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.405z" />
         <path d="M12 10h-1.783l1.542-1.639c.097-.103.178-.218.241-.34V10zm0-3.354V6h-.646a1.5 1.5 0 0 1 .646.646zM16 8a1.5 1.5 0 0 1-1.5 1.5v-3A1.5 1.5 0 0 1 16 8z" />
       </svg>
-      <code className="text-primary2 work">{`{More to come...Work in Progress...}`}</code>
+      <code className="text-primary2 work" style={{color: "#5bc0be"}}>{`{More to come...Work in Progress...}`}</code>
     </div>
   );
 };
