@@ -7,24 +7,6 @@ import "./BlogApp.css";
 const BlogApp = () => {
   return (
     <div className="pro-desc-wrapper">
-      {/* <div className="go-github">
-        <Link
-          to="https://github.com/LakshayySharma/mern-blog-app-site"
-          target="_blank"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="40"
-            height="40"
-            fill="currentColor"
-            className="bi bi-github text-secondary"
-            viewBox="0 0 16 16"
-          >
-            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
-          </svg>
-          <code className="h3 text-secondary">{`{Go Github}`}</code>
-        </Link>
-      </div> */}
       <Link to="/">
         <div className="go-back">
           <svg
@@ -53,8 +35,27 @@ const BlogApp = () => {
             >
               Mern Stack Blog App
             </h1>
+            <code style={{ color: "#5bc0be" }}>
+              <a
+                href="https://mern-blogapp.netlify.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: "none" }}
+              >
+                See live here
+              </a>
+              <a
+                href="https://mern-blogapp.netlify.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: "none" }}
+                className="ms-5"
+              >
+                See Github code
+              </a>
+            </code>
             <ul
-              className="nav p-3 justify-content-center mb-5 navbar "
+              className="nav p-3 justify-content-center mb-5 mt-3 navbar "
               id="proj-nav"
             >
               <li className="nav-item me-3">
@@ -74,28 +75,34 @@ const BlogApp = () => {
               </li>
             </ul>
           </div>
-          <code className="h3">
-            <span className="text-primary">{`<`}</span>About Project{" "}
-            <span className="text-primary">{` />`}</span>
-          </code>
-          <div className="about-pro-image mt-4">
-            {/* <div></div> */}
-            <img src={img1} alt="" />
+          <div id="about-proj">
+            <code className="h3">
+              <span className="text-primary">{`<`}</span>About Project{" "}
+              <span className="text-primary">{` />`}</span>
+            </code>
+            <div className="about-pro-image mt-4">
+              {/* <div></div> */}
+              <img src={img1} alt="" />
+            </div>
+            <p className="mt-4">
+              This project is a full stack blog app, where you can post articles
+              (blogs) and comment on articles posted by other authors.
+            </p>
+            <code
+              className="text-primary2"
+              style={{ color: "#5bc0be", fontSize: "1rem" }}
+            >
+              Technologies Used:
+            </code>
+            <ul className="tech-used" style={{ fontSize: "1rem" }}>
+              <li>ReactJs</li>
+              <li>MongoDb</li>
+              <li>NodeJs</li>
+              <li>ExpressJs</li>
+              <li>Jwt for Authentication</li>
+              <li>Redux for state management</li>
+            </ul>
           </div>
-          <p className="mt-4">
-            This project is a full stack blog app, where you can post articles
-            (blogs) and comment on articles posted by other authors.
-          </p>
-          <code className="text-primary2"> Technologies Used:</code>
-          <ul className="tech-used" style={{ fontSize: "0.7rem" }}>
-            <li>ReactJs</li>
-            <li>MongoDb</li>
-            <li>NodeJs</li>
-            <li>ExpressJs</li>
-            <li>Jwt for Authentication</li>
-            <li>Redux for state management</li>
-          </ul>
-
           <FrontendProj />
           <BackendProj />
         </div>

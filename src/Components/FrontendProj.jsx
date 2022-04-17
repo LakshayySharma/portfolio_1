@@ -12,7 +12,7 @@ const FrontendProj = () => {
       </h3>
       <div style={{ height: "50%" }} className="d-sm-flex pro-desc">
         <div
-          style={{ height: "100%" }}
+          style={{ height: "80%" }}
           id="front-image-wrapper"
           className="me-5"
         >
