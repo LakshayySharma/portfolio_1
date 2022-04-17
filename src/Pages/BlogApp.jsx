@@ -45,7 +45,7 @@ const BlogApp = () => {
                 See live here
               </a>
               <a
-                href="https://mern-blogapp.netlify.app"
+                href="https://github.com/LakshayySharma/mern-blog-app-site"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ textDecoration: "none" }}
