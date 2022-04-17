@@ -44,6 +44,8 @@ const BlogApp = () => {
               >
                 See live here
               </a>
+            </code>
+            <code style={{ color: "#5bc0be" }}>
               <a
                 href="https://github.com/LakshayySharma/mern-blog-app-site"
                 target="_blank"
